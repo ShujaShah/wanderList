@@ -14,7 +14,6 @@ const Form = ({ onAddItems }) => {
       id: Date.now(),
     };
     onAddItems(newItem);
-    console.log(newItem);
     setDescription('');
     setQuantity('');
   }
